@@ -16,7 +16,7 @@
   <body>
     <header>
       <div class="container">
-        <div></div>
+        <div>logo</div>
         <div>
           <ul class="menu-btn">
             <li><a href="#" class="ul_link" id="home">Home</a></li>
@@ -31,28 +31,390 @@
       </div>
     </header>
     <!--1 section: hey-->
-    <section class="container">
-      <div>
-        <p class="hey">Hey, I am Dinara</p>
-        <p class="intro">
-          I am studyng for <span id="fullstack">fullstack developer</span>
-        </p>
-        <p id="introduction">
-          This knowledge will allow me to develop sites and application
-        </p>
-        <div class="buttonwrapper">
-          <a href="https://wa.me/77774080046" class="get_in_touch"
-            >Get In Touch</a
-          >
+    <section>
+      <div class="container">
+        <div class="column">
+          <h1 class="hey">Hey, I am Dinara</h1>
+          <h2 class="intro">
+            I am studyng for <span id="fullstack">fullstack developer</span>
+          </h2>
+          <p id="introduction">
+            This knowledge will allow me to develop sites and application
+          </p>
+          <div class="buttonwrapper">
+            <a href="https://wa.me/77774080046" class="get_in_touch"
+              >Get In Touch</a
+            >
+          </div>
+        </div>
+        <div class="column">
+          <img
+            id="flower"
+            src="https://pngicon.ru/file/uploads/kartinka-lotos.png"
+            alt=""
+          />
         </div>
       </div>
-      <div>
-        <img
-          id="flower"
-          src="https://pngicon.ru/file/uploads/kartinka-lotos.png"
-          alt=""
-        />
+    </section>
+    <!--2 section My experience-->
+    <section>
+      <div id="verticalflex" class="container">
+        <div>
+          <h1 class="hey">My experience</h1>
+          <h2 class="intro">My jobs</h2>
+        </div>
+        <div class="grid">
+          <div class="block">
+            <img
+              class="logo"
+              src="https://www.kpo.kz/fileadmin/template/img/logon.png"
+              alt=""
+              class="logo"
+            />
+            <p id="Company">
+              LP “Petroleum Facilities Engineering & Construction”
+            </p>
+            <p>Piping Engineer</p>
+          </div>
+          <div class="block">
+            <img
+              class="logo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvt9JYMexDvRCA5a-7FPqU7T793Tn95IJh8O7pk51ZAyiS4ZT6zWn2Q4j2bjv6zfQW1a8&usqp=CAU"
+              alt=""
+            />
+            <p>LP “Construction Communication Technologies”</p>
+            <p>Production department manager</p>
+          </div>
+          <div class="block">
+            <img
+              class="logo"
+              src="http://www.dlc.kz/wp-content/themes/dlc-theme/img/logo-black.png"
+              alt=""
+            />
+            <p>LP “Dreamline Company”</p>
+            <p>Project designer</p>
+          </div>
+          <div class="block">
+            <img
+              class="logo"
+              src="https://www.cer-llp.kz/assets/img/logo-2.png"
+              alt=""
+            />
+            <p>LP “Caspian Engineering & Research”</p>
+            <p>Regulatory affairs consultant</p>
+          </div>
+          <div class="block">
+            <img
+              class="logo"
+              src="https://kbtu.edu.kz/images/kbtu.png"
+              alt=""
+            />
+            <p>LP “Institute of Engineering and Information Technologies”</p>
+            <p>Business analyst/Coordinator</p>
+          </div>
+          <div class="block">
+            <img
+              class="logo"
+              src="https://kbtu.edu.kz/images/banner_26092023_rus.png"
+              alt=""
+            />
+            <p>JSC "Kazakh-British technical university"</p>
+            <p>business analyst</p>
+          </div>
+        </div>
       </div>
     </section>
+    <!--3 section: My projects-->
+    <section>
+      <div id="verticalflex" class="container">
+        <div class="menu-btn">
+          <div>
+            <p class="hey">Projects</p>
+            <p class="intro">I participated in</p>
+          </div>
+          <div id="visittext" class="visit">
+            <a href="https://www.linkedin.com/in/dinara-katayeva-78543a19"
+              >Visit My
+            </a>
+            <img
+              id="linkedinlogo"
+              src="data:image/png;base64,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"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://www.kpo.kz/fileadmin/template/img/logon.png"
+                alt=""
+                class="logo"
+              />
+              <p id="Company">
+                LP “Petroleum Facilities Engineering & Construction”
+              </p>
+              <p>Piping Engineer</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://www.cer-llp.kz/assets/img/logo-2.png"
+                alt=""
+              />
+              <p>LP “Caspian Engineering & Research”</p>
+              <p>Regulatory affairs consultant</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://kbtu.edu.kz/images/banner_26092023_rus.png"
+                alt=""
+              />
+              <p>JSC "Kazakh-British technical university"</p>
+              <p>business analyst</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://www.kpo.kz/fileadmin/template/img/logon.png"
+                alt=""
+                class="logo"
+              />
+              <p id="Company">
+                LP “Petroleum Facilities Engineering & Construction”
+              </p>
+              <p>Piping Engineer</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://www.kpo.kz/fileadmin/template/img/logon.png"
+                alt=""
+                class="logo"
+              />
+              <p id="Company">
+                LP “Petroleum Facilities Engineering & Construction”
+              </p>
+              <p>Piping Engineer</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://www.kpo.kz/fileadmin/template/img/logon.png"
+                alt=""
+                class="logo"
+              />
+              <p id="Company">
+                LP “Petroleum Facilities Engineering & Construction”
+              </p>
+              <p>Piping Engineer</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://www.kpo.kz/fileadmin/template/img/logon.png"
+                alt=""
+                class="logo"
+              />
+              <p id="Company">
+                LP “Petroleum Facilities Engineering & Construction”
+              </p>
+              <p>Piping Engineer</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://www.kpo.kz/fileadmin/template/img/logon.png"
+                alt=""
+                class="logo"
+              />
+              <p id="Company">
+                LP “Petroleum Facilities Engineering & Construction”
+              </p>
+              <p>Piping Engineer</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://www.kpo.kz/fileadmin/template/img/logon.png"
+                alt=""
+                class="logo"
+              />
+              <p id="Company">
+                LP “Petroleum Facilities Engineering & Construction”
+              </p>
+              <p>Piping Engineer</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://www.kpo.kz/fileadmin/template/img/logon.png"
+                alt=""
+                class="logo"
+              />
+              <p id="Company">
+                LP “Petroleum Facilities Engineering & Construction”
+              </p>
+              <p>Piping Engineer</p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="logo"
+                src="https://www.kpo.kz/fileadmin/template/img/logon.png"
+                alt=""
+                class="logo"
+              />
+              <p id="Company">
+                LP “Petroleum Facilities Engineering & Construction”
+              </p>
+              <p>Piping Engineer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--4 section: About me-->
+    <section>
+      <div class="container">
+        <div class="column">
+          <img
+            src="data:image/png;base64,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"
+            alt=""
+          />
+        </div>
+        <div class="column">
+          <h1 id="aboutmelink" class="hey">My hobbies</h1>
+          <h2 class="intro">About me</h2>
+          <p id="introduction">
+            I love travelling, studying, reading, selfdevelopment
+          </p>
+          <div class="buttonwrapper">
+            <a href="#" class="get_in_touch">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--5 section: Input-->
+    <section>
+      <div class="container">
+        <div class="input_wrapper">
+          <div class="inputsection">
+            <p>Get In Touch</p>
+            <p id="contactme">Contact me</p>
+            <p>Please fill the form below to send your question</p>
+          </div>
+          <form
+            id="input"
+            name="test"
+            method="post"
+            action="mailto:k.dinara.y@gmail.com"
+            enctype="text/plain"
+          >
+            <div class="inputblock">
+              <p>
+                <b>First name</b><br />
+                <input type="text" size="40" required />
+              </p>
+              <p>
+                <b>Last name</b><br />
+                <input type="text" size="40" required />
+              </p>
+              <p>
+                <b>Email</b><br />
+                <input type="text" size="40" />
+              </p>
+              <p>
+                <b>Phone number</b><br />
+                <input type="text" size="40" required />
+              </p>
+            </div>
+            <p>
+              Message<br />
+              <textarea name="comment" cols="40" rows="3">
+      type your message</textarea
+              >
+            </p>
+            <p>
+              I accept these items
+              <input type="checkbox" name="yes" />
+            </p>
+            <p>
+              <input
+                class="get_in_touch buttonwrapper"
+                type="submit"
+                value="Submit"
+              />
+              <input
+                class="get_in_touch buttonwrapper"
+                type="reset"
+                value="Clear form"
+              />
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer>
+      <div id="verticalflex" class="container">
+        <div class="menu-btn">
+          <div>logo</div>
+          <div>
+            <ul class="menu-btn">
+              <li>home</li>
+              <li>Portfolio</li>
+              <li>About me</li>
+              <li>Contact me</li>
+              <li>Projects</li>
+            </ul>
+          </div>
+          <div>
+            <!--предпоследняя строка в футере-->
+            <img
+              id="img"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-dOSGgDroeOCJszEWHvc3KxtUXzMvpDApBkElS9hx&s"
+              alt=""
+            />
+            <img
+              id="img"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-dOSGgDroeOCJszEWHvc3KxtUXzMvpDApBkElS9hx&s"
+              alt=""
+            />
+            <img
+              id="img"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-dOSGgDroeOCJszEWHvc3KxtUXzMvpDApBkElS9hx&s"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="menu-btn">
+          <!--последняя строка в футере-->
+          <div class="madewithlove">
+            <p>made with love</p>
+            <img
+              id="heart"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1b5PA-hH_7FWuOJIkDttBwamzkdGFWcWW7VJSs0TRYg&s"
+              alt=""
+            />
+            <p>by Dinara</p>
+          </div>
+          <div class="menu-btn">
+            <ul>
+              <li>
+                <a href="#" class="#" id="home">Privacy policy</a>
+              </li>
+              <li>
+                <a href="#" class="header_link">terms of service</a>
+              </li>
+              <li>
+                <a href="#" class="header_link">Cookies settingsf</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

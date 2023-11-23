@@ -27,6 +27,13 @@ section {
   flex-direction: row;
 }
 
+/* header (footer) lists */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .menu-btn {
   display: flex;
   list-style: none;
@@ -50,15 +57,161 @@ section {
   height: fit-content;
   padding: 18px 42px;
   background-color: #fff;
-  margin-bottom: 20px;
+}
+
+/* 1 section: hey */
+.column {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.hey {
+  font-size: 21px;
+  font-weight: 700; /* не нашла 600 в google fonts*/
+}
+
+.intro {
+  font-size: 74px;
+  font-weight: 700;
+}
+#introduction {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#fullstack {
+  color: var(--Primary, #5e3bee);
+}
+
+.get_in_touch {
+  color: #fff;
+  font-size: 21px;
+  background-color: var(--Primary, #5e3bee);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.buttonwrapper {
+  border: solid #5e3bee;
+  width: fit-content;
+  height: fit-content;
+  padding: 18px 42px;
+  background-color: #5e3bee;
 }
 
 #flower {
-  width: 350px;
-  height: 220px;
+  width: 600px;
+  height: 450px;
 }
 /* по дизайну размер фото такой:
 #flower {
   height: 729px;
   width: 917px;
 } */
+
+/* 2 section: my experience */
+#verticalflex {
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 42px;
+
+  /*
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px; */
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--BG-Shade, #f5fcff);
+  border-radius: 10px;
+}
+
+/* свойства логотипов в my jobs*/
+.logo {
+  width: 53px;
+  height: 53px;
+  border-radius: 10px;
+}
+
+/* 3 section: my projects */
+.visit {
+  color: #fff;
+  display: flex;
+  align-self: stretch;
+  width: 100%;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 12px 20px;
+  background-color: #9ab9e8;
+  border-radius: 10px;
+}
+
+#visittext {
+  color: black;
+  text-decoration: none;
+  align-items: center;
+  vertical-align: center;
+  text-decoration: none;
+}
+
+#linkedinlogo {
+  width: 32px;
+  height: 32px;
+}
+
+/*4 section: About me*/
+
+/* 5 section: input*/
+
+.inputblock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.input {
+  align-items: center;
+  max-width: 1600px;
+  position: absolute;
+}
+
+.input_wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerflex {
+  display: flex;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.madewithlove {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
