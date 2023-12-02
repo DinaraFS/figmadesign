@@ -23,6 +23,7 @@ html {
 }
 
 #pagewidth {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -211,7 +212,10 @@ header {
 
 /* 5 section: input*/
 .inputsection {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .inputblock {
@@ -224,6 +228,10 @@ header {
   max-width: 1600px;
   position: absolute;
 }
+#inputtext {
+  font-size: 21px;
+  font-weight: 400;
+}
 
 .input_wrapper {
   width: 50%;
@@ -232,12 +240,23 @@ header {
   flex-direction: column;
 }
 
+.inputborder {
+  height: 30px;
+  border-radius: 8px;
+  border: 1.333px solid var(--Primary, #5e3bee);
+  background: var(--White, #fff);
+}
+
 /*footer*/
 .footer {
   display: flex;
   flex-direction: column;
 }
-
+.footerdiv {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
 #poshirine {
   width: 100%;
 }
@@ -260,4 +279,16 @@ header {
   list-style: none;
   column-gap: 43px;
   justify-content: center;
+}
+
+.footer-img {
+  width: 30px;
+  height: 30px;
+}
+
+#footertext1 {
+  font-size: 21px;
+}
+#footertext2 {
+  font-size: 18px;
 }

@@ -132,7 +132,7 @@
     <!--3 section: My projects-->
     <section class="blue">
       <div id="verticalflex" class="container">
-        <div id="pagewidth" class="menu-btn">
+        <div id="pagewidth" class="poshirine">
           <div>
             <p class="hey">Projects</p>
             <p class="intro">I participated in</p>
@@ -326,31 +326,37 @@
           >
             <div class="inputblock">
               <p>
-                <b>First name</b><br />
-                <input type="text" size="40" required />
+                <b id="inputtext">First name</b><br />
+                <input class="inputborder" type="text" size="40" required />
               </p>
               <p>
-                <b>Last name</b><br />
-                <input type="text" size="40" required />
+                <b id="inputtext">Last name</b><br />
+                <input class="inputborder" type="text" size="40" required />
               </p>
               <p>
-                <b>Email</b><br />
-                <input type="text" size="40" />
+                <b id="inputtext">Email</b><br />
+                <input class="inputborder" type="text" size="40" />
               </p>
               <p>
-                <b>Phone number</b><br />
-                <input type="text" size="40" required />
+                <b id="inputtext">Phone number</b><br />
+                <input class="inputborder" type="text" size="40" required />
               </p>
             </div>
             <p>
               Message<br />
-              <textarea name="comment" cols="40" rows="3">
+              <textarea
+                id="inputtext"
+                class="inputborder"
+                name="comment"
+                cols="40"
+                rows="3"
+              >
       type your message</textarea
               >
             </p>
             <p>
               I accept these items
-              <input type="checkbox" name="yes" />
+              <input class="inputborder" type="checkbox" name="yes" />
             </p>
             <p>
               <input
@@ -372,10 +378,10 @@
     <footer>
       <div id="verticalflex" class="container">
         <div class="poshirine">
-          <div class="menu-btn">
+          <div class="footerdiv">
             <div>logo</div>
             <div>
-              <ul class="footer-btn">
+              <ul id="footertext1" class="footer-btn">
                 <li>home</li>
                 <li>Portfolio</li>
                 <li>About me</li>
@@ -383,39 +389,46 @@
                 <li>Projects</li>
               </ul>
             </div>
-            <hr />
             <div>
               <!--предпоследняя строка в футере-->
-              <img
-                id="img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-dOSGgDroeOCJszEWHvc3KxtUXzMvpDApBkElS9hx&s"
-                alt=""
-              />
-              <img
-                id="img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-dOSGgDroeOCJszEWHvc3KxtUXzMvpDApBkElS9hx&s"
-                alt=""
-              />
-              <img
-                id="img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-dOSGgDroeOCJszEWHvc3KxtUXzMvpDApBkElS9hx&s"
-                alt=""
-              />
+              <a href="https://www.instagram.com/dinara.di.k/">
+                <img
+                  class="footer-img"
+                  id="img"
+                  src="/Users/dinara/Desktop/Portfolio/images/Instagram.jpg"
+                  alt=""
+              /></a>
+              <a href="https://www.facebook.com/dinara.katayeva.1/">
+                <img
+                  class="footer-img"
+                  id="img"
+                  src="/Users/dinara/Desktop/Portfolio/images/Facebook.svg"
+                  alt=""
+              /></a>
+              <a href="https://www.linkedin.com/in/dinara-katayeva-78543a19/">
+                <img
+                  class="footer-img"
+                  id="img"
+                  src="/Users/dinara/Desktop/Portfolio/images/LinkedIn.svg"
+                  alt=""
+              /></a>
             </div>
           </div>
-          <div class="menu-btn">
+          <hr />
+          <div class="footerdiv">
             <!--последняя строка в футере-->
-            <div class="madewithlove">
+            <div id="footertext2" class="madewithlove">
               <p>made with love</p>
               <img
+                class="footer-img"
                 id="heart"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1b5PA-hH_7FWuOJIkDttBwamzkdGFWcWW7VJSs0TRYg&s"
                 alt=""
               />
               <p>by Dinara</p>
             </div>
-            <div class="menu-btn">
-              <ul>
+            <div>
+              <ul id="footertext2" class="menu-btn">
                 <li>
                   <a href="#" class="#" id="home">Privacy policy</a>
                 </li>
@@ -423,7 +436,7 @@
                   <a href="#" class="header_link">terms of service</a>
                 </li>
                 <li>
-                  <a href="#" class="header_link">Cookies settingsf</a>
+                  <a href="#" class="header_link">Cookies settings</a>
                 </li>
               </ul>
             </div>
